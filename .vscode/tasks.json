@@ -11,6 +11,8 @@
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
+            "files.exclude": {
+            "**/*.exe": true},
             "options": {
                 "cwd": "${fileDirname}"
             },

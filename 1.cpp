@@ -9,7 +9,7 @@ int main() {
 
     double x, y;
 
-    cout << "Введіть х: ";
+    cout << "Enter x: ";
     cin >> x;
 
     y = pow(x, 3) -4 * pow(x, 2) - 5 * x + 9 + cos(x);
